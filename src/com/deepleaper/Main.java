@@ -61,6 +61,8 @@ public class Main {
 
         Map<Integer, List<Person>> vv = Arrays.asList(new Person(11, "test"), new Person(12, "test2")).stream().collect(groupingBy(Person::getAge));
 
+
+        
     }
 
     public static int target = 1000000000;

@@ -79,8 +79,8 @@ public class Combination {
 
         List<String> permutationResult = new ArrayList<>();
         List<String> combinationResult = new ArrayList<>();
-        permutation(2, 0, allElements, "", permutationResult);
-        combination(2, 0, allElements, "", combinationResult);
+        permutation(3, 0, allElements, "", permutationResult);
+        combination(3, 0, allElements, "", combinationResult);
 
         System.out.println("permutationResult: (" + permutationResult.stream().collect(Collectors.joining(")(")) + ")");
         System.out.println("combinationResult: (" + combinationResult.stream().collect(Collectors.joining(")(")) + ")");
