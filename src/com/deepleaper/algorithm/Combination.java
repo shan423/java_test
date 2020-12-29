@@ -1,4 +1,4 @@
-package com.deepleaper.test;
+package com.deepleaper.algorithm;
 
 import java.util.ArrayList;
 import java.util.Arrays;

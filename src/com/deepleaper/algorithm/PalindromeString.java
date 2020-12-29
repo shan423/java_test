@@ -1,6 +1,6 @@
-package com.deepleaper.test;
+package com.deepleaper.algorithm;
 
-public class Huiwen {
+public class PalindromeString {
 
     public static boolean check(String a) {
         int l = a.length() / 2;
