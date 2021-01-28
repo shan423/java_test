@@ -39,7 +39,7 @@ public class OpenAndClose {
         String a = "a<a>bc<a>haha hello</a> wo shi ~<a> html tag </a> 1</a>1";
         String b = "abc<a>haha hello</a> wo shi ~<a> html tag </a> 11 ";
         //String c ="<a>111111<a>222</a>3333</a>";
-        String c ="<a>111111</a>222<a>3333</a>";
-        System.out.println(fetch(c, "a"));
+        String c ="<a>111111</a>a<a>3333</a>";
+        System.out.println(fetch(a, "a"));
     }
 }

@@ -1,6 +1,5 @@
 package com.deepleaper.algorithm;
 
-
 public class WildSearch {
 
     static class node {
@@ -108,7 +107,9 @@ public class WildSearch {
                 book[next.x][next.y] = 1;
                 next.f = headNode;
                 next.s = headNode.s + 1;
+                //存储一个合法路径队列
                 nodes[tail] = next;
+                //指向队列下一个空位 用于填充
                 tail++;
 
                 if (next.x == targetX && next.y == targetY) {
@@ -116,6 +117,7 @@ public class WildSearch {
                     return;
                 }
             }
+            //一个位置上下左右均尝试过则对nodes步进一个单位
             head++;
         }
     }
